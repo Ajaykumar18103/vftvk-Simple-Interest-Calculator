@@ -1,6 +1,9 @@
-body {background-color:transparent;}
-h1{color:#777777;}
-input[type="number"]{
+h1{ text-align:center;}
+    body {background-color:transparent;
+        text-align:center;
+    }
+    h1{color:#777777;}
+    input[type="number"]{
   position:relative;
   display:block;
   margin:0 auto;}
