@@ -4,14 +4,12 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Simple Interest Calculator</h1>
+         <h1>Simple Interest Calculator</h1>
 
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        <button onclick="compute()">Compute Interest</button>
+        Amount <input type="number"   id="principal">  <br/>
+        Rate <input type="range"  id="rate" step="0.1" min="1" max="21" oninput="this.nextElementSibling.value = this.value" align="right"><output>10.5%</output><br/>
+        No. of Years <input type="number"  id="years" min="1" >  <br/>
+        <button onclick="compute()">Compute Interest</button> <br/>
         <span id="result"></span><br>
-
-        
     </body>
 </html>
