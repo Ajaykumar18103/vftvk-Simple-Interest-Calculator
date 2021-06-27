@@ -5,7 +5,7 @@ function compute()
     r=document.getElementById("years").value;
         if(q<=0 && q=" "){
             alert("Enter a Positive Number");
-           // q.focus();
+            q.focus();
         }else{
 
     
