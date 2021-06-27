@@ -6,9 +6,9 @@ function compute()
         if(q<=0 && q=" "){
             alert("Enter a Positive Number");
             q.focus();
-        }else{
+        }
 
     
     document.getElementById("result").innerHTML="If you deposit "+q+",<br>at an interest rate of "+p+".<br>You will receive an amount of "+((p*r*q)/100)+",<br>in the year";
-    }
+    
     }
