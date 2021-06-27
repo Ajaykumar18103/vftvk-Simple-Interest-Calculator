@@ -10,5 +10,5 @@ function compute()
         }
 
     
-    document.getElementById("result").innerHTML="If you deposit "+q+",<br>at an interest rate of "+p+".<br>You will receive an amount of "+Math.round(s)+",<br>in the year";
+    document.getElementById("result").innerHTML="If you deposit "+q+",<br>at an interest rate of "+p+".<br>You will receive an amount of "+s+",<br>in the year";
     }
